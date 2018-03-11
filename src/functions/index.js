@@ -1,6 +1,7 @@
 import { nextApp as next } from "./app/app"
 import { mars } from "./worlds/mars"
 import { jupiter } from "./worlds/jupiter"
+import { about_me } from "./about_me/about_me"
 
 /*
 Namespace application services with function groups.
@@ -14,11 +15,13 @@ const app = {
   // other Hosting dependencies
 }
 
+
 // Mircoservices that make up the Greetings service
 // yarn deploy-functions
 const greetings = {
   mars,
   jupiter,
+  about_me,
   // other funcs
 }
 

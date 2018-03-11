@@ -1,3 +1,6 @@
+const path = require('path')
+const glob = require('glob')
+
 module.exports = {
   distDir: "../../dist/functions/next",
   webpack: (config, { dev }) => {
