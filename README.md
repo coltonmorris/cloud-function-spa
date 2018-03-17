@@ -7,6 +7,7 @@ Here is the accompanying [Medium Post](https://medium.com/@jthegedus/next-js-on-
 ## Dev Notes and TODOS
 + Broke the live version. Getting 404s and 500s. Investigate that. 
 + Meme for Chelsea
++ Fix colton.me hosting
 
 ## Why?
 
