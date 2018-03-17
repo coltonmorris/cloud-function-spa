@@ -2,7 +2,11 @@
 
 Host a Next.js SSR React app on Cloud Functions for Firebase with Firebase Hosting.
 
-~~Here is the accompanying [Medium Post](https://medium.com/@jthegedus/next-js-on-cloud-functions-for-firebase-with-firebase-hosting-7911465298f2)~~ A new post is being written to describe the new project structure, Firebase partial deployments, Firebase support of pre/post-deploy hooks and what problems these new features solve.
+Here is the accompanying [Medium Post](https://medium.com/@jthegedus/next-js-on-cloud-functions-for-firebase-with-firebase-hosting-7911465298f2)
+
+## Dev Notes and TODOS
++ Broke the live version. Getting 404s and 500s. Investigate that. 
++ Meme for Chelsea
 
 ## Why?
 
@@ -30,20 +34,10 @@ A number of issues with Hosting SSR on Firebase were overcome with this method. 
 yarn install
 ```
 
-## Login to Firebase CLI
-
 This is used as a dev-dependency instead of a global install. I've found this to be a much nicer dev experience.
 
 ```bash
 yarn fblogin
-```
-
-## Next.js Development
-
-Standard Next.js development with Hot-module Reloading etc
-
-```bash
-yarn dev
 ```
 
 ## Local Testing
@@ -87,7 +81,3 @@ yarn deploy-all
 ```bash
 yarn clean
 ```
-
-## A note on Code Compatibility
-
-Everything was tested on Ubuntu 17.04 with Bash. This should work on [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-au/commandline/wsl/about) without any changes. If you wish for Windows native support please [submit an issue](https://github.com/jthegedus/firebase-functions-next-example/issues/new) so we can work on Windows compatibility. Please report any macOS errors as I do not have access to a device to test. [My development environment can be found here](https://github.com/jthegedus/dotfiles).
