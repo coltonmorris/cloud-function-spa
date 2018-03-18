@@ -4,6 +4,9 @@ Host a Next.js SSR React app on Cloud Functions for Firebase with Firebase Hosti
 
 ~~Here is the accompanying [Medium Post](https://medium.com/@jthegedus/next-js-on-cloud-functions-for-firebase-with-firebase-hosting-7911465298f2)~~ A new post is being written to describe the new project structure, Firebase partial deployments, Firebase support of pre/post-deploy hooks and what problems these new features solve.
 
+## TODOS
++ Configure billing setup
+
 ## Why?
 
 Host your SSR Next.js app on Cloud Functions enabling a low-cost, auto-scaling SSR app experience leveraging Firebase's sweet developer experience.
